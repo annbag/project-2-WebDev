@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	font-family: 'Roboto', sans-serif;
+}
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+header div {
+	width: 20%;
+	height: 200px;
+	margin: 2.5%;
+	background-color: #3EBDFF;
+	float: left;
+}
+header div:nth-child(1) {
+	background-color: #00BA8E;
+}
+header div:nth-child(2) {
+	background-color: #FFBF00;
+}
+header div:nth-child(3) {
+	background-color: #0070CA;
+}
+header div:nth-child(4) {
+	background-color: #BA002B;
+}
+header div:hover {
+	background-color: grey;
+}
