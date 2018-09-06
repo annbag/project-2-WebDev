@@ -31,5 +31,35 @@ header div:nth-child(4) {
 	background-color: #BA002B;
 }
 header div:hover {
-	background-color: grey;
+	background-color: #666;
+}
+/* nav */
+nav {
+	background: #555;	
+	padding: 20px 0 20px 50px;
+}
+nav ul {
+	list-style: none;
+		
+}
+nav ul li {
+	float: left;	
+	width: 15%;
+	margin: 0 20px;
+}
+nav ul li a {
+	display: block;
+	border: 2px solid #fff;	
+	padding: 10px;	
+	font-size: 20px;
+	color: white;
+	background-color: #333;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+
+}
+nav ul li a:hover {
+	border: 2px solid #0070CA;
+	color: #0070CA;
 }
